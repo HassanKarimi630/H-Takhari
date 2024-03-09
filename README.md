@@ -3,4 +3,4 @@ git clone
 https://github.com/HassanKarimi630/H-Takhari.git
 cd H-Takhari
 ls
-python HassanTakhari3.py
+python Takhari3.py
