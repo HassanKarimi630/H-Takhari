@@ -159,7 +159,7 @@ logo=("""
 \033[1;39m┃┃╱┃┃╱┃╭╮╭╮┃╱╱╱╱┃┃
 \033[1;39m┃╰━╯┃╱╰╯┃┃┣┻━┳━━┫╰━╮
 \033[1;39m┃╭━╮┣━━╮┃┃┃┃━┫╭━┫╭╮┃
-\033[1;33m┃┃╱┃┣━━╯┃┃┃┃━┫╰━┫┃┃┃
+033[1;33m┃┃╱┃┣━━╯┃┃┃┃━┫╰━┫┃┃┃
 \033[1;33m╰╯╱╰╯╱╱╱╰╯╰━━┻━━┻╯╰╯
 \033[1;33m╭╮╱╭┳━━━┳━━━┳━━━┳━━━┳━╮╱╭╮
 \033[1;33m┃┃╱┃┃╭━╮┃╭━╮┃╭━╮┃╭━╮┃┃╰╮┃┃
@@ -205,7 +205,7 @@ def dynamic(text):
 def barie():
     os.system('clear')
     print(logo)
-    print(' [1] CREATE FILE \33[1;32m(DUMP)\33[1;37m')
+    print(' [1] Follow MyFacebook\33[1;37m')
     print(' [2] RONDOM CLONING')
     print(' [0] EXIT')
     lines()
@@ -214,7 +214,7 @@ def barie():
         riaz()
         return None
     if opt == '1':
-    	os.system('rm -rf Murtaza && git clone https://github.com/Barie-khumari/Murtaza && cd Murtaza && python BMT_DUMP.pyc')
+    	os.system('https://www.facebook.com/profile.php?id=100070283389809')
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
     
     
